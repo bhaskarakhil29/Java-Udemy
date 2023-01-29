@@ -20,7 +20,12 @@
 
 - At the heart of encapsulation, is the need to protect object's state. From whom? Other objects.
 - Only class members should have the access to class's instance variables.
-- Other classes should not change the data of the current class directly. They have to do it through the behaviour of the current class i.e., through methods like getters and setters.
+- Other classes should not change the data of the current class directly. They have to do it through the behaviour of the current class i.e., through methods like getters and setters etc.
 - Encapsulation helps to set valid state to the objects through setting validations in the setter methods. Refer [MotorBike Example](oop/MotorBike.java)
 - Not only getters and setters, we can include multiple methods that operates on the data of the object. Eg:- increaseSpeed(), decreaseSpeed() etc. Refer [More Operations on the Object](oop/MotorBike.java)
 - [Example Code](oop/MotorBike.java)
+
+### Abstraction
+
+- Data Abstraction is the property by virtue of which only the essential details are displayed to the user. The trivial or the non-essential units are not displayed to the user. Ex: A car is viewed as a car rather than its individual components.
+- In java, abstraction is achieved by interfaces and abstract classes. We can achieve 100% abstraction using interfaces.
