@@ -6,7 +6,7 @@ public class MotorBikeRunner {
         MotorBike ducati = new MotorBike();
         
         hunter.start();
-        hunter.setSpeed(100);
+        hunter.setSpeed(-100);//Setting -100 as speed is invalid. Hence, encapsulation allows us to make validations in the setter method of the class.
         ducati.start();
         System.out.println(hunter.getSpeed());
     }
