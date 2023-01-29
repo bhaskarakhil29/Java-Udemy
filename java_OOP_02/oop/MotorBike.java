@@ -9,6 +9,11 @@ public class MotorBike {
         return speed;
     }
 
+    public MotorBike(int speed) {
+        if (speed > 0)
+            this.speed = speed;
+    }
+
     public void setSpeed(int speed) {
         if (speed > 0)
             this.speed = speed;

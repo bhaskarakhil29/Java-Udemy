@@ -29,3 +29,12 @@
 
 - Data Abstraction is the property by virtue of which only the essential details are displayed to the user. The trivial or the non-essential units are not displayed to the user. Ex: A car is viewed as a car rather than its individual components.
 - In java, abstraction is achieved by interfaces and abstract classes. We can achieve 100% abstraction using interfaces.
+
+### Constructors
+
+- Constructors are the special methods which are invoked while creating the object using "new" keyword.
+- We defined a single-argument constructor for MotorBike , whose definition looks like this:
+  ` public MotorBike(int speed){ /* Constructor Code Goes Here */ }`
+- The constructor is a method, whose name is the same as the class name. All Java rules for a method apply to constructors as well. Constructor cannot be directly called.
+- A constructor is always invoked when a class object is created, using the new keyword. A constructor for a class could accept zero, one or more than one arguments.
+- A default constructor is the one which doesn't have any arguements and if not specified, JVM automatically creates while creating an object.
