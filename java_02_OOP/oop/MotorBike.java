@@ -1,4 +1,4 @@
-package java_OOP_02.oop;
+package java_02_OOP.oop;
 
 public class MotorBike {
     
