@@ -15,4 +15,5 @@
 
 - Only class members should have the access to class's instance variables.
 - Other classes should not change the data of the current class directly. They have to do it through the behaviour of the current class i.e., through methods like getters and setters.
+- For the instance variables, default value will be 0 incase of integers, false incase of Boolean, 0.0 incase of float/double and '' for chars.
 - [Example Code](oop/MotorBike.java)
