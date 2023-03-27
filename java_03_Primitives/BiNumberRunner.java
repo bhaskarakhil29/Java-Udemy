@@ -1,6 +1,6 @@
 package java_03_Primitives;
 
-import java.math.BigDecimal;
+//import java.math.BigDecimal;
 
 public class BiNumberRunner {
     
@@ -12,6 +12,6 @@ public class BiNumberRunner {
         System.out.println(number.getNumber1());
         System.out.println(number.getNumber2());
 
-        BigDecimal dbl = new BigDecimal("12908397561.1265631523");
+        //BigDecimal dbl = new BigDecimal("12908397561.1265631523");
     }
 }
